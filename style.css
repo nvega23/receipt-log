@@ -161,9 +161,11 @@ label#label input[type="file"] {
     bottom: 0;
   }
   #videoId{
-    margin-left: -140px;
-    margin-top: -100px;
-    height: 750px;
-    width: 600px;
+    visibility: hidden;
+  }
+  #textButton{
+    color: #8400ff;
+    background-color: #002a3f;
+    border: none;
   }
 }
