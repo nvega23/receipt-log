@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.js">
+    <link rel="icon" type="image/x-icon" href="videos/preview.png">
+    <title>Cynthia's receipt log</title>
+</head>
+<body id="body">
+    <div id="videoContainer">
+        <div class="container2">
+            <video id="videoId" autoPlay muted width="100%" height="170%" loop>
+                <source src="./videos/watre.mp4" type="video/mp4"/>
+            </video>
+            <div class="textbox">
+                <button id="textButton" style="z-index: 1; cursor: pointer;" onclick="myFunction2() && funny()">
+                    <h1 id="textBoxButton">Welcome, Cynthia</h1>
+                    <h3 id="textBoxButtonId">click on me</h3>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="borderInput">
+        <label id="label">
+            <input id="files" type="file" multiple="multiple" accept="image/jpeg, image/png, image/jpg, gif">
+            <span class="textPicture">Choose your pictures</span>
+        </label>
+    </div>
+    <div class="container">
+        <output class="imageResize" id="result">
+    </div>
+    <button id="clearButton" onclick="myFunction()">Remove everything but the pictures</button>
+
+    <script src="index.js"></script>
+    <script>
+        function funny() {
+            const output = document.getElementById('textButton')
+            if (output){
+                alert("Hey stop pushing my buttons!!!")
+            }
+        }
+        </script>
+    <script>
+        function myFunction2() {
+            const z = document.getElementById("videoContainer");
+            if (z.style.display === "none") {
+                z.style.display = "block";
+                console.log("works?")
+            } else {
+                z.style.display = "none";
+                alert("Hey stop pushing my buttons!!!")
+                alert("Baboy!!!")
+            }
+        }
+    </script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("files");
+            var y = document.getElementById("clearButton");
+            var z = document.getElementById("label")
+            var body = document.getElementById("body")
+            if (x.style.display === "none" || y.style.display === "none" || z.style.display === "none") {
+                x.style.display = "block";
+                y.style.display = "block";
+                z.style.display = "block";
+                document.body.style.backgroundColor="white"
+            } else {
+                x.style.display = "none";
+                y.style.display = "none";
+                z.style.display = "none";
+                document.body.style.backgroundColor="white"
+            }
+        }
+        </script>
+
+</body>
+</html>
