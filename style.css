@@ -153,3 +153,18 @@ label#label input[type="file"] {
     align-items: center;
     text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+  #clearButton{
+    font-size: 15px;
+    margin-left: 20px;
+  }
+  #videoId{
+    margin-left: -50px;
+    margin-top: -50px;
+    height: 750px;
+    width: 600px;
+  }
+  /* #textButton{ */
+  /* } */
+}
