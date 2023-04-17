@@ -11,7 +11,7 @@ body{
 
 img{
     width: 450px;
-    height: 150px;
+    height: 350px;
     object-fit: contain;
     padding: 1px;
     margin: 30px;
@@ -25,10 +25,26 @@ img{
     flex-direction: column;
 }
 
+.container{
+  height: 100rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .container2{
     width: 110%;
     height: 550px;
     margin-left: -55px;
+}
+
+#result{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
 }
 
 .textbox{
@@ -164,8 +180,8 @@ label#label input[type="file"] {
     visibility: hidden;
   }
   #textButton{
-    color: #8400ff;
-    background-color: #002a3f;
+    color: #fff;
+    background-image: linear-gradient(#43cea2, #185a9d);
     border: none;
   }
 }
