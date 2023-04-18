@@ -16,7 +16,7 @@
                 <source src="./videos/watre.mp4" type="video/mp4"/>
             </video>
             <div class="textbox">
-                <button id="textButton" style="z-index: 1; cursor: pointer;" onclick="myFunction2() && funny()">
+                <button id="textButton" style="z-index: 1; cursor: pointer;" onclick="myFunction2()"> <!-- && funny() goes after myFunction2 -->
                     <h1 id="textBoxButton">Welcome, Cynthia</h1>
                     <h3 id="textBoxButtonId">click on me</h3>
                 </button>
@@ -45,14 +45,13 @@
         </script>
     <script>
         function myFunction2() {
+            const x = document.getElementById("label")
             const z = document.getElementById("videoContainer");
             if (z.style.display === "none") {
                 z.style.display = "block";
-                console.log("works?")
             } else {
+                x.style.display = "block";
                 z.style.display = "none";
-                alert("Hey stop pushing my buttons!!!")
-                alert("Baboy!!!")
             }
         }
     </script>

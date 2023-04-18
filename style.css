@@ -64,7 +64,7 @@ img{
 }
 
 #textButton{
-    z-index: 4;
+    z-index: -1;
     cursor: pointer;
     width: 500px;
     height: 300px;
@@ -146,7 +146,9 @@ label#label input[type="file"] {
     color: #8400ff;
     transform: scale(0.5) translate(50%, 50%);
     font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
-    font-size: 1.5rem;
+    font-size: 55px;
+    margin: 0% -20% 40%;
+    margin-right: 71%;
   }
   #label:hover {
     color: #c383ff;
@@ -183,5 +185,18 @@ label#label input[type="file"] {
     color: #fff;
     background-image: linear-gradient(#43cea2, #185a9d);
     border: none;
+    height: 110%;
+    margin-top: 215px;
+    z-index: 1;
+    color: aqua;
+  }
+  .textbox{
+    background-color: #fff;
+  }
+  #label{
+    display: none;
+    font-size: 50px;
+    width: max-content;
+    margin-left: -275px;
   }
 }
