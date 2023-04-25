@@ -10,11 +10,12 @@ body{
 }
 
 img{
-    width: 450px;
-    height: 350px;
+    width: 250px;
+    /* height: 450px; */
     object-fit: contain;
-    padding: 1px;
-    margin: 30px;
+    margin: 1px;
+    /* margin-bottom: -15px; */
+    margin-bottom: -12px;
 }
 
 .imageResize{
@@ -147,7 +148,6 @@ label#label input[type="file"] {
     transform: scale(0.5) translate(50%, 50%);
     font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
     font-size: 55px;
-    margin: 0% -20% 40%;
     margin-right: 71%;
   }
   #label:hover {
@@ -191,7 +191,7 @@ label#label input[type="file"] {
     color: aqua;
   }
   .textbox{
-    background-color: #fff;
+    background-color: transparent;
   }
   #label{
     display: none;
