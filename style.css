@@ -4,7 +4,8 @@
 }
 
 body{
-  background-image: linear-gradient(#1d0dcaf0, #c383ff);
+  /* background-color: linear-gradient(#1d0dcaf0, #c383ff); */
+  background: linear-gradient(#1d0dcaf0, #c383ff);
   /* background-color: #002a3f; */
     /* background-image: linear-gradient(#43cea2 50%, #185a9d 50%); */
     padding: 0;
