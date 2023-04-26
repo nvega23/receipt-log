@@ -4,7 +4,9 @@
 }
 
 body{
-    background-color: #002a3f;
+  background-image: linear-gradient(#1d0dcaf0, #c383ff);
+  /* background-color: #002a3f; */
+    /* background-image: linear-gradient(#43cea2 50%, #185a9d 50%); */
     padding: 0;
     margin: 0;
 }
@@ -16,6 +18,7 @@ img{
     margin: 1px;
     /* margin-bottom: -15px; */
     margin-bottom: -12px;
+    border: none;
 }
 
 .imageResize{
@@ -147,8 +150,8 @@ label#label input[type="file"] {
     color: #8400ff;
     transform: scale(0.5) translate(50%, 50%);
     font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
-    font-size: 55px;
-    margin-right: 71%;
+    font-size: 35px;
+    /* margin-right: 71%; */
   }
   #label:hover {
     color: #c383ff;
